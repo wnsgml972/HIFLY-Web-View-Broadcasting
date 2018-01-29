@@ -1,0 +1,71 @@
+@font-face{
+ font-family:'Daum';
+ font-style:normal;
+ font-weight:400;
+ src:url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff2') format('woff2'),
+     url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff') format('woff');
+}
+@font-face{
+ font-family:'DaumBold';
+ font-style:normal;
+ font-weight:700;
+ src:url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff2') format('woff2'),
+     url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff') format('woff');
+}
+
+
+.row .grid_12{
+	width : 100%;
+	margin : auto;
+	padding : 5px;
+}
+#loginform{
+	position : relative;			
+	width : 100%;
+	padding : 5%;
+	display: inline-block;			
+	list-style : none;	
+	/* text-align:center; */
+}
+#loginform  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#loginform input[type=text]:focus,input[type=password]:focus,input[type=button]:focus {
+   background-color:#AAAAAA;
+}
+.input_group {
+	margin : 0;
+	height: 70px;
+}
+
+#loginform input[type=submit], input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginform input[type=submit]:hover, input[type=button]:hover {
+    background-color: #45a049;
+}
+
+#loginHeader div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#signIn{
+	color : #DDBE74;
+	float : right;	
+	text-decoration:underline;
+}

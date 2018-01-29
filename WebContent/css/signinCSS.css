@@ -1,0 +1,74 @@
+@font-face{
+ font-family:'Daum';
+ font-style:normal;
+ font-weight:400;
+ src:url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff2') format('woff2'),
+     url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff') format('woff');
+}
+@font-face{
+ font-family:'DaumBold';
+ font-style:normal;
+ font-weight:700;
+ src:url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff2') format('woff2'),
+     url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff') format('woff');
+}
+#loginHeader>div{
+	width : 90%;
+	margin : 7% auto auto auto;
+	padding : 5px;
+}
+
+#loginform{
+	position : relative;	
+	width : 100%;
+	display: inline-block;			
+	list-style : none;	
+	/* text-align:center; */
+}
+#loginform table,.input-group{
+	width : 100%;
+}
+#loginform .form-control{
+	width : 100%;
+}
+#loginform #user_submit{
+	width : 100%;
+}
+
+
+#loginform input[type=text]:focus,input[type=email]:focus,input[type=password]:focus {
+   background-color:#AAAAAA;
+}
+progress { -webkit-appearance: none; }
+
+#loginform #pwprogress{
+	height : 20px;	
+	width : 80%;
+	margin : 15px 10%;
+}
+
+#loginform td{
+	width : 60%;
+	 margin : 0 10px;
+	 padding : 0;
+}
+#loginform input[type=button],input[type=submit]  {	
+	position:relative;		
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginform input[type=button]:hover,input[type=button]:hover {
+    background-color: #45a049;
+}
+
+#loginHeader div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
