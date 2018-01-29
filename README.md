@@ -1,4 +1,3 @@
 # StreamingService
 > HIFLY  Broadcasting System
-## youtube url
-> https://www.youtube.com/watch?v=55R1oghmro4&feature=youtu.be
+> <https://github.com/HIFLY-CSM/HIFLY-Final> 참조
